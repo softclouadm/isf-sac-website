@@ -1,0 +1,21 @@
+{
+  "modal_search_title": "Buscar por palabra clave",
+  "modal_search_placeholder": "palabras clave",
+  "header_project_title": "Nuestros Proyectos",
+  "breadcrumb_home": "Inicio",
+  "breadcrumb_pages": "Páginas",
+  "breadcrumb_project_active": "Proyecto",
+  "project_subtitle": "Nuestros Proyectos",
+  "project_title": "Explora Nuestros Últimos Proyectos",
+  "project_img_1_alt": "Imagen del proyecto 1",
+  "project_item_1_title": "Crecimiento Empresarial",
+  "project_item_1_desc": "Estrategia de Negocios y Consultoría de Crecimiento",
+  "project_btn_read_more": "Leer Más",
+  "faq_title": "Preguntas Frecuentes",
+  "faq_subtitle": "Obtén respuestas a preguntas comunes",
+  "faq_question_1": "¿Qué hace un asesor financiero?",
+  "faq_answer_1_title": "Dolor sit amet consectetur adipisicing elit.",
+  "faq_answer_1_text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nemo impedit...",
+  "faq_img_alt": "Imagen FAQ",
+  "faq_btn_read_more": "Leer más preguntas"
+}

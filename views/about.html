@@ -1,212 +1,225 @@
-    <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
-                        </div>
-                    </div>
+<!-- Modal Search Start -->
+<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="modalSearchLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h4 class="modal-title mb-0" id="modalSearchLabel" data-i18n="modal_search_title">Search by keyword</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex align-items-center">
+                <div class="input-group w-75 mx-auto d-flex">
+                    <input type="search" class="form-control p-3" placeholder="" aria-describedby="search-icon-1" data-i18n-placeholder="modal_search_placeholder">
+                    <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
                 </div>
             </div>
         </div>
-        <!-- Modal Search End -->
+    </div>
+</div>
+<!-- Modal Search End -->
 
-        <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
-            <div class="bg-breadcrumb-single"></div>
-            <div class="container text-center py-5" style="max-width: 900px;">
-                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">About Us</h4>
-                <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active text-primary">About</li>
-                </ol>    
+<!-- Header Start -->
+<div class="container-fluid bg-breadcrumb">
+    <div class="bg-breadcrumb-single"></div>
+    <div class="container text-center py-5" style="max-width: 900px;">
+        <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s" data-i18n="header_about_title">About Us</h4>
+        <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+            <li class="breadcrumb-item"><a href="index.html" data-i18n="breadcrumb_home">Home</a></li>
+            <li class="breadcrumb-item"><a href="#" data-i18n="breadcrumb_pages">Pages</a></li>
+            <li class="breadcrumb-item active text-primary" data-i18n="breadcrumb_about_active">About</li>
+        </ol>    
+    </div>
+</div>
+<!-- Header End -->
+
+<!-- About Start -->
+<div class="container-fluid about bg-light py-5">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                <div class="about-img">
+                    <img src="../assets/img/about-3.png" class="img-fluid w-100 rounded-top bg-white" alt="" data-i18n-alt="about_img_1_alt">
+                    <img src="../assets/img/about-2.jpg" class="img-fluid w-100 rounded-bottom" alt="" data-i18n-alt="about_img_2_alt">
+                </div>
             </div>
-        </div>
-        <!-- Header End -->
-
-        <!-- About Start -->
-        <div class="container-fluid about bg-light py-5">
-            <div class="container py-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
-                        <div class="about-img">
-                            <img src="../assets/img/about-3.png" class="img-fluid w-100 rounded-top bg-white" alt="Image">
-                            <img src="../assets/img/about-2.jpg" class="img-fluid w-100 rounded-bottom" alt="Image">
-                        </div>
+            <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                <h4 class="text-primary" data-i18n="about_subtitle">About Us</h4>
+                <h1 class="display-5 mb-4" data-i18n="about_title">Ingeniería de Sistemas de Fluidos S.A.C.</h1>
+                <p class="text ps-4 mb-4" data-i18n="about_paragraph_1">
+                    Ingeniería de Sistemas de Fluidos S.A.C. fue fundada el 12 de mayo de 1985. ISF SAC se dedica a la proveeduría de sistemas, equipos y repuestos de refrigeración industrial, óleo-hidráulica y automatización industrial para los sectores: pesquero, industrial de alimentos, bebidas, cementeras, minería y petróleo.
+                </p>
+                <p class="text ps-4 mb-4" data-i18n="about_paragraph_2">
+                    Nuestra atención y servicio incluye desde soluciones de ingeniería, mantenimiento de equipos hasta suministro, instalación y puesta en marcha de proyectos llave en mano. Nuestro servicio post-venta los 365 días del año, 24 horas del día garantiza una respuesta inmediata a cualquier problema que nuestros clientes puedan tener.
+                </p>
+                <p class="text ps-4 mb-4" data-i18n="about_paragraph_3">
+                    Con más de 40 años de experiencia, ISF SAC se ha consolidado en Perú como una empresa confiable y con tecnología de punta, especialmente en los sectores pesquero e industrial, y ha logrado expandirse a países como Ecuador y Panamá.
+                </p>
+                <div class="row g-4 justify-content-between mb-5">
+                    <div class="col-lg-6 col-xl-5">
+                        <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i> <span data-i18n="about_feature_1">Refrigeración Industrial</span></p>
+                        <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i> <span data-i18n="about_feature_2">Óleo-Hidráulica</span></p>
                     </div>
-                    <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
-                        <h4 class="text-primary">About Us</h4>
-                        <h1 class="display-5 mb-4">The most Profitable Investments company in worldwide.</h1>
-                        <p class="text ps-4 mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores atque nihil unde quisquam, deleniti illo a. Quam harum laboriosam, laudantium, deleniti perferendis voluptates ex non laborum libero magni, minus illo!
-                        </p>
-                        <div class="row g-4 justify-content-between mb-5">
-                            <div class="col-lg-6 col-xl-5">
-                                <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i> Strategy & Consulting</p>
-                                <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i> Business Process</p>
-                            </div>
-                            <div class="col-lg-6 col-xl-7">
-                                <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i> Marketing Rules</p>
-                                <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i> Partnerships</p>
-                            </div>
-                        </div>
-                        <div class="row g-4 justify-content-between mb-5">
-                            <div class="col-xl-5"><a href="#" class="btn btn-primary rounded-pill py-3 px-5">Discover More</a></div>
-                            <div class="col-xl-7 mb-5">
-                                <div class="about-customer d-flex position-relative">
-                                    <img src="../assets/img/customer-img-1.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 0; top: 0;"  alt="Image">
-                                    <img src="../assets/img/customer-img-2.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 45px; top: 0;" alt="Image">
-                                    <img src="../assets/img/customer-img-3.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 90px; top: 0;" alt="Image">
-                                    <img src="../assets/img/customer-img-1.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 135px; top: 0;" alt="Image">
-                                    <div class="position-absolute text-dark" style="left: 220px; top: 10px;">
-                                        <p class="mb-0">5m+ Trusted</p>
-                                        <p class="mb-0">Global Customers</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row g-4 text-center align-items-center justify-content-center">
-                            <div class="col-sm-4">
-                                <div class="bg-primary rounded p-4">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <span class="counter-value fs-1 fw-bold text-dark" data-toggle="counter-up">32</span>
-                                        <h4 class="text-dark fs-1 mb-0" style="font-weight: 600; font-size: 25px;">k+</h4>
-                                    </div>
-                                    <div class="w-100 d-flex align-items-center justify-content-center">
-                                        <p class="text-white mb-0">Project Complete</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="bg-dark rounded p-4">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <span class="counter-value fs-1 fw-bold text-white" data-toggle="counter-up">21</span>
-                                        <h4 class="text-white fs-1 mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
-                                    </div>
-                                    <div class="w-100 d-flex align-items-center justify-content-center">
-                                        <p class="mb-0">Years Of Experience</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="bg-primary rounded p-4">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <span class="counter-value fs-1 fw-bold text-dark" data-toggle="counter-up">97</span>
-                                        <h4 class="text-dark fs-1 mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
-                                    </div>
-                                    <div class="w-100 d-flex align-items-center justify-content-center">
-                                        <p class="text-white mb-0">Team Members</p>
-                                    </div>
-                                </div>
+                    <div class="col-lg-6 col-xl-7">
+                        <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i> <span data-i18n="about_feature_3">Automatización Industrial</span></p>
+                        <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i> <span data-i18n="about_feature_4">Mantenimiento y Proyectos Llave en Mano</span></p>
+                    </div>
+                </div>
+                <div class="row g-4 justify-content-between mb-5">
+                    <div class="col-xl-5">
+                        <a href="http://www.isfsac.com" target="_blank" class="btn btn-primary rounded-pill py-3 px-5" data-i18n="about_btn_visit_website">Visita Nuestro Sitio Web</a>
+                    </div>
+                    <div class="col-xl-7 mb-5">
+                        <div class="about-customer d-flex position-relative">
+                            <img src="../assets/img/customer-img-1.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 0; top: 0;" alt="Cliente 1" data-i18n-alt="customer_img_1_alt">
+                            <img src="../assets/img/customer-img-2.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 45px; top: 0;" alt="Cliente 2" data-i18n-alt="customer_img_2_alt">
+                            <img src="../assets/img/customer-img-3.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 90px; top: 0;" alt="Cliente 3" data-i18n-alt="customer_img_3_alt">
+                            <img src="../assets/img/customer-img-1.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 135px; top: 0;" alt="Cliente 4" data-i18n-alt="customer_img_4_alt">
+                            <div class="position-absolute text-dark" style="left: 220px; top: 10px;">
+                                <p class="mb-0" data-i18n="about_trusted_count">5m+ Clientes Confiables</p>
+                                <p class="mb-0" data-i18n="about_trusted_text">En todo el mundo</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- About End -->
-
-
-        <!-- Team Start -->
-        <div class="container-fluid team py-5">
-            <div class="container py-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Team</h4>
-                    <h1 class="display-4">Our Investa Company Dedicated Team Member</h1>
-                </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item rounded">
-                            <div class="team-img">
-                                <img src="../assets/img/team-1.jpg" class="img-fluid w-100 rounded-top" alt="Image">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fas fa-share-alt"></i></a>
-                                    <div class="team-icon-share">
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
+                <div class="row g-4 text-center align-items-center justify-content-center">
+                    <div class="col-sm-4">
+                        <div class="bg-primary rounded p-4">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <span class="counter-value fs-1 fw-bold text-dark" data-toggle="counter-up" data-i18n="about_stats_years">33</span>
+                                <h4 class="text-dark fs-1 mb-0" style="font-weight: 600; font-size: 25px;" data-i18n="about_stats_years_suffix">+</h4>
                             </div>
-                            <div class="team-content bg-dark text-center rounded-bottom p-4">
-                                <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
-                                </div>
+                            <div class="w-100 d-flex align-items-center justify-content-center">
+                                <p class="text-white mb-0" data-i18n="about_stats_years_text">Años de experiencia</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item rounded">
-                            <div class="team-img">
-                                <img src="../assets/img/team-2.jpg" class="img-fluid w-100 rounded-top" alt="Image">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fas fa-share-alt"></i></a>
-                                    <div class="team-icon-share">
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
+                    <div class="col-sm-4">
+                        <div class="bg-dark rounded p-4">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <span class="counter-value fs-1 fw-bold text-white" data-toggle="counter-up" data-i18n="about_stats_employees">50</span>
+                                <h4 class="text-white fs-1 mb-0" style="font-weight: 600; font-size: 25px;" data-i18n="about_stats_employees_suffix">+</h4>
                             </div>
-                            <div class="team-content bg-dark text-center rounded-bottom p-4">
-                                <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
-                                </div>
+                            <div class="w-100 d-flex align-items-center justify-content-center">
+                                <p class="mb-0" data-i18n="about_stats_employees_text">Empleados</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item rounded">
-                            <div class="team-img">
-                                <img src="../assets/img/team-3.jpg" class="img-fluid w-100 rounded-top" alt="Image">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fas fa-share-alt"></i></a>
-                                    <div class="team-icon-share">
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
+                    <div class="col-sm-4">
+                        <div class="bg-primary rounded p-4">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <span class="counter-value fs-1 fw-bold text-dark" data-toggle="counter-up" data-i18n="about_stats_linkedin">13</span>
+                                <h4 class="text-dark fs-1 mb-0" style="font-weight: 600; font-size: 25px;" data-i18n="about_stats_linkedin_suffix">+</h4>
                             </div>
-                            <div class="team-content bg-dark text-center rounded-bottom p-4">
-                                <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item rounded">
-                            <div class="team-img">
-                                <img src="../assets/img/team-4.jpg" class="img-fluid w-100 rounded-top" alt="Image">
-                               
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fas fa-share-alt"></i></a>
-                                    <div class="team-icon-share">
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content bg-dark text-center rounded-bottom p-4">
-                                <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
-                                </div>
+                            <div class="w-100 d-flex align-items-center justify-content-center">
+                                <p class="text-white mb-0" data-i18n="about_stats_linkedin_text">Miembros Asociados (LinkedIn)</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Team End -->
+    </div>
+</div>
+
+<!-- About End -->
+
+<!-- Team Start -->
+<div class="container-fluid team py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+            <h4 class="text-primary" data-i18n="team_title">Nuestro Equipo</h4>
+            <h1 class="display-4" data-i18n="team_subtitle">El equipo dedicado de Ingeniería de Sistemas de Fluidos S.A.C.</h1>
+        </div>
+        <div class="row g-4 justify-content-center">
+
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item rounded">
+                    <div class="team-img">
+                        <img src="../assets/img/team-1.jpg" class="img-fluid w-100 rounded-top" alt="Mark D. Brock" data-i18n-alt="team_member_1_alt">
+                        <div class="team-icon">
+                            <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="#" aria-label="Share"><i class="fas fa-share-alt"></i></a>
+                            <div class="team-icon-share">
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-content bg-dark text-center rounded-bottom p-4">
+                        <div class="team-content-inner rounded-bottom">
+                            <h4 class="text-white" data-i18n="team_member_1_name">Mark D. Brock</h4>
+                            <p class="text-muted mb-0" data-i18n="team_member_1_role">CEO & Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item rounded">
+                    <div class="team-img">
+                        <img src="../assets/img/team-2.jpg" class="img-fluid w-100 rounded-top" alt="Jane Doe" data-i18n-alt="team_member_2_alt">
+                        <div class="team-icon">
+                            <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="#" aria-label="Share"><i class="fas fa-share-alt"></i></a>
+                            <div class="team-icon-share">
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-content bg-dark text-center rounded-bottom p-4">
+                        <div class="team-content-inner rounded-bottom">
+                            <h4 class="text-white" data-i18n="team_member_2_name">Jane Doe</h4>
+                            <p class="text-muted mb-0" data-i18n="team_member_2_role">Project Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item rounded">
+                    <div class="team-img">
+                        <img src="../assets/img/team-3.jpg" class="img-fluid w-100 rounded-top" alt="John Smith" data-i18n-alt="team_member_3_alt">
+                        <div class="team-icon">
+                            <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="#" aria-label="Share"><i class="fas fa-share-alt"></i></a>
+                            <div class="team-icon-share">
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-content bg-dark text-center rounded-bottom p-4">
+                        <div class="team-content-inner rounded-bottom">
+                            <h4 class="text-white" data-i18n="team_member_3_name">John Smith</h4>
+                            <p class="text-muted mb-0" data-i18n="team_member_3_role">Lead Engineer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="team-item rounded">
+                    <div class="team-img">
+                        <img src="../assets/img/team-4.jpg" class="img-fluid w-100 rounded-top" alt="Anna Lee" data-i18n-alt="team_member_4_alt">
+                        <div class="team-icon">
+                            <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="#" aria-label="Share"><i class="fas fa-share-alt"></i></a>
+                            <div class="team-icon-share">
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-content bg-dark text-center rounded-bottom p-4">
+                        <div class="team-content-inner rounded-bottom">
+                            <h4 class="text-white" data-i18n="team_member_4_name">Anna Lee</h4>
+                            <p class="text-muted mb-0" data-i18n="team_member_4_role">Marketing Specialist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Team End -->

@@ -1,0 +1,64 @@
+{
+  "modal_search_title": "Buscar por palabra clave",
+  "modal_search_placeholder": "Escribe para buscar...",
+  
+  "header_about_title": "Sobre Nosotros",
+  "breadcrumb_home": "Inicio",
+  "breadcrumb_pages": "Páginas",
+  "breadcrumb_about_active": "Acerca de",
+
+  "about_subtitle": "Sobre Nosotros",
+  "about_title": "Ingeniería de Sistemas de Fluidos S.A.C.",
+  "about_paragraph_1": "Ingeniería de Sistemas de Fluidos S.A.C. fue fundada el 12 de mayo de 1985. ISF SAC se dedica a la proveeduría de sistemas, equipos y repuestos de refrigeración industrial, óleo-hidráulica y automatización industrial para los sectores: pesquero, industrial de alimentos, bebidas, cementeras, minería y petróleo.",
+  "about_paragraph_2": "Nuestra atención y servicio incluye desde soluciones de ingeniería, mantenimiento de equipos hasta suministro, instalación y puesta en marcha de proyectos llave en mano. Nuestro servicio post-venta los 365 días del año, 24 horas del día garantiza una respuesta inmediata a cualquier problema que nuestros clientes puedan tener.",
+  "about_paragraph_3": "Con más de 40 años de experiencia, ISF SAC se ha consolidado en Perú como una empresa confiable y con tecnología de punta, especialmente en los sectores pesquero e industrial, y ha logrado expandirse a países como Ecuador y Panamá.",
+
+  "about_feature_1": "Refrigeración Industrial",
+  "about_feature_2": "Óleo-Hidráulica",
+  "about_feature_3": "Automatización Industrial",
+  "about_feature_4": "Mantenimiento y Proyectos Llave en Mano",
+
+  "about_btn_visit_website": "Visita Nuestro Sitio Web",
+
+  "about_img_1_alt": "Imagen de refrigeración industrial",
+  "about_img_2_alt": "Imagen de sistemas industriales",
+
+  "customer_img_1_alt": "Cliente 1",
+  "customer_img_2_alt": "Cliente 2",
+  "customer_img_3_alt": "Cliente 3",
+  "customer_img_4_alt": "Cliente 4",
+
+  "about_trusted_count": "5m+ Clientes Confiables",
+  "about_trusted_text": "En todo el mundo",
+
+  "about_stats_years": "33",
+  "about_stats_years_suffix": "+",
+  "about_stats_years_text": "Años de experiencia",
+
+  "about_stats_employees": "50",
+  "about_stats_employees_suffix": "+",
+  "about_stats_employees_text": "Empleados",
+
+  "about_stats_linkedin": "13",
+  "about_stats_linkedin_suffix": "+",
+  "about_stats_linkedin_text": "Miembros Asociados (LinkedIn)",
+
+  "team_title": "Nuestro Equipo",
+  "team_subtitle": "El equipo dedicado de Ingeniería de Sistemas de Fluidos S.A.C.",
+
+  "team_member_1_name": "Mark D. Brock",
+  "team_member_1_role": "CEO & Fundador",
+  "team_member_1_alt": "Foto de Mark D. Brock",
+
+  "team_member_2_name": "Jane Doe",
+  "team_member_2_role": "Gerente de Proyecto",
+  "team_member_2_alt": "Foto de Jane Doe",
+
+  "team_member_3_name": "John Smith",
+  "team_member_3_role": "Ingeniero Líder",
+  "team_member_3_alt": "Foto de John Smith",
+
+  "team_member_4_name": "Anna Lee",
+  "team_member_4_role": "Especialista en Marketing",
+  "team_member_4_alt": "Foto de Anna Lee"
+}

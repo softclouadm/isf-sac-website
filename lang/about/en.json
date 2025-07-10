@@ -1,0 +1,64 @@
+{
+  "modal_search_title": "Search by keyword",
+  "modal_search_placeholder": "Type to search...",
+
+  "header_about_title": "About Us",
+  "breadcrumb_home": "Home",
+  "breadcrumb_pages": "Pages",
+  "breadcrumb_about_active": "About",
+
+  "about_subtitle": "About Us",
+  "about_title": "Fluid Systems Engineering S.A.C.",
+  "about_paragraph_1": "Fluid Systems Engineering S.A.C. was founded on May 12, 1985. ISF SAC provides systems, equipment, and spare parts for industrial refrigeration, hydraulic oil systems, and industrial automation for sectors such as fishing, food industry, beverages, cement plants, mining, and oil.",
+  "about_paragraph_2": "Our service includes engineering solutions, equipment maintenance, as well as supply, installation, and commissioning of turnkey projects. Our after-sales service is available 24/7, 365 days a year, ensuring an immediate response to any problem our clients may have.",
+  "about_paragraph_3": "With over 40 years of experience, ISF SAC has established itself in Peru as a reliable company with cutting-edge technology, especially in the fishing and industrial sectors, and has expanded to countries like Ecuador and Panama.",
+
+  "about_feature_1": "Industrial Refrigeration",
+  "about_feature_2": "Hydraulic Oil Systems",
+  "about_feature_3": "Industrial Automation",
+  "about_feature_4": "Maintenance and Turnkey Projects",
+
+  "about_btn_visit_website": "Visit Our Website",
+
+  "about_img_1_alt": "Industrial refrigeration image",
+  "about_img_2_alt": "Industrial systems image",
+
+  "customer_img_1_alt": "Customer 1",
+  "customer_img_2_alt": "Customer 2",
+  "customer_img_3_alt": "Customer 3",
+  "customer_img_4_alt": "Customer 4",
+
+  "about_trusted_count": "5m+ Trusted Customers",
+  "about_trusted_text": "Worldwide",
+
+  "about_stats_years": "33",
+  "about_stats_years_suffix": "+",
+  "about_stats_years_text": "Years of experience",
+
+  "about_stats_employees": "50",
+  "about_stats_employees_suffix": "+",
+  "about_stats_employees_text": "Employees",
+
+  "about_stats_linkedin": "13",
+  "about_stats_linkedin_suffix": "+",
+  "about_stats_linkedin_text": "LinkedIn Members",
+
+  "team_title": "Our Team",
+  "team_subtitle": "The dedicated team of Fluid Systems Engineering S.A.C.",
+
+  "team_member_1_name": "Mark D. Brock",
+  "team_member_1_role": "CEO & Founder",
+  "team_member_1_alt": "Photo of Mark D. Brock",
+
+  "team_member_2_name": "Jane Doe",
+  "team_member_2_role": "Project Manager",
+  "team_member_2_alt": "Photo of Jane Doe",
+
+  "team_member_3_name": "John Smith",
+  "team_member_3_role": "Lead Engineer",
+  "team_member_3_alt": "Photo of John Smith",
+
+  "team_member_4_name": "Anna Lee",
+  "team_member_4_role": "Marketing Specialist",
+  "team_member_4_alt": "Photo of Anna Lee"
+}

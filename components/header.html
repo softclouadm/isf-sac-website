@@ -68,10 +68,12 @@
                                 <div class="d-flex align-items-center flex-nowrap pt-xl-0">
                             <button class="btn btn-primary btn-md-square mx-2" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
                             <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 ms-2 flex-wrap flex-sm-shrink-0">Start Investa</a>
-                          <select id="lang-switcher" class="form-select form-select-sm ms-3" style="width: auto;">
-        <option value="es" selected>ES</option>
-        <option value="en">EN</option>
-      </select>
+                       <select id="lang-switcher" class="form-select form-select-sm ms-3"
+        onchange="setCurrentLanguage(this.value)" style="width: auto;">
+  <option value="es" selected>ES</option>
+  <option value="en">EN</option>
+</select>
+
                         </div>
                     </div>
                 </nav>
