@@ -294,7 +294,7 @@
     top: -300px;
     right: -300px;
     border-radius: 300px;
-    border: 100px solid rgba(68, 210, 246, 0.2);
+    border: 100px solid rgba(255, 255, 255, 0.797);
     animation: RotateMoveCircle 10s linear infinite;
     background: transparent;
     z-index: 2 !important;
@@ -317,7 +317,7 @@
     top: -150px;
     left: 70px;
     transform: rotate(-30deg);
-    background: rgba(68, 210, 246, 0.2);
+    background: rgba(253, 253, 253, 0.2);
     animation: RotateMoveRight 5s linear infinite;
     z-index: 2 !important;
 }
@@ -954,3 +954,69 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+
+/* carrucel de marcas inicio   */
+  .brand-carousel-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .brand-carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 20px;
+  }
+
+  .brand-item {
+    flex: 0 0 200px;
+    text-align: center;
+  }
+
+  .brand-item img {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+  }
+
+  .brand-item img:hover {
+    filter: grayscale(0%);
+  }
+
+  .brand-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .brand-btn.prev {
+    left: 0;
+  }
+
+  .brand-btn.next {
+    right: 0;
+  }
+
+  @media (max-width: 768px) {
+    .brand-item {
+      flex: 0 0 150px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .brand-item {
+      flex: 0 0 120px;
+    }
+  }
+
+/* carrucel de marcas fin   */
+

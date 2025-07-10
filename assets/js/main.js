@@ -139,3 +139,23 @@
 
 })(jQuery);
 
+
+
+  const track = document.getElementById("brand-carousel-track");
+  const prev = document.querySelector(".brand-btn.prev");
+  const next = document.querySelector(".brand-btn.next");
+
+  let scrollPos = 0;
+  const step = 220; // Tamaño de una tarjeta + gap
+
+  next.addEventListener("click", () => {
+    if (scrollPos + step < track.scrollWidth - track.clientWidth) {
+      scrollPos += step;
+      track.style.transform = `translateX(-${scrollPos}px)`;
+    }
+  });
+
+  prev.addEventListener("click", () => {
+    scrollPos = Math.max(0, scrollPos - step);
+    track.style.transform = `translateX(-${scrollPos}px)`;
+  });
